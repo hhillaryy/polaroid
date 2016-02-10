@@ -1,0 +1,25 @@
+*,
+*::before
+*::after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/cork-board.jpg");
+  background-size: cover;
+  height: 1600px;
+  width: 100%;
+}
+.polaroid{
+  position: relative;
+}
+
+.puppy img {
+  position: absolute;
+  height: 639px;
+  width: 639px;
+  left: 132px;
+  bottom: 272px;
+}
